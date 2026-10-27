@@ -1,6 +1,8 @@
 # Olostep MCP Server for Zed
 
-A Zed extension that adds the [Olostep MCP server](https://github.com/olostep/olostep-mcp-server) to Zed's Agent Panel, giving the agent live web data: scraping (with JavaScript rendering), web search, answers with citations, site mapping, batch scraping and crawling.
+**Live web search, scraping and crawling API for AI. Get structured, LLM-ready data from any site. Scale to 1M requests in a single batch at low cost.**
+
+[Olostep](https://www.olostep.com) is web data infrastructure for AI. It provides live web search, scraping and crawling API to extract and structure data. This Zed extension adds the [Olostep MCP server](https://github.com/olostep/olostep-mcp-server) to Zed's Agent Panel: scraping (with JavaScript rendering), web search, answers with citations, site mapping, batch scraping and crawling.
 
 The extension installs the [`olostep-mcp`](https://www.npmjs.com/package/olostep-mcp) package from npm and runs it with Zed's bundled Node.js. Nothing else needs to be installed.
 
@@ -43,6 +45,13 @@ Zed also shows this configuration when you enable the server in **Agent Panel â†
 
 - "Use Olostep to read https://docs.python.org/3/whatsnew/3.13.html and summarize the breaking changes."
 - "Search the web for the latest Next.js release and list the new features with sources."
+
+## About Olostep
+
+[Olostep](https://www.olostep.com) is web data infrastructure for AI. It provides live web search, scraping and crawling API to extract and structure data, used in production by AI companies to give their agents fresh, LLM-ready web data at scale.
+
+- Website: https://www.olostep.com
+- Documentation: https://docs.olostep.com
 
 ## License
 
